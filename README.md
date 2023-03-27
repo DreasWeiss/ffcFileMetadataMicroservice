@@ -28,3 +28,21 @@ HINT: You can use the multer npm package to handle file uploading.
 - [ ] You can submit a form that includes a file upload.
 - [ ] The form file input field has the name attribute set to upfile.
 - [ ] When you submit a file, you receive the file name, type, and size in bytes within the JSON response.
+
+#### Install Dependencies
+```
+git clone https://github.com/DreasWeiss/ffcFileMetadataMicroservice.git
+cd fccFileMetadataMicroservice
+npm i
+touch .env
+```
+in .env file:
+```
+PORT=
+```
+You should input your data without spaces (ex. PORT=1234)
+PORT - is the Preferred Port for Working Application
+
+```
+nodemon index.js
+```
