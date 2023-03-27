@@ -15,6 +15,14 @@ Select Use run command and click the Done button.
 When you are done, make sure a working demo of your project is hosted somewhere public. Then submit the URL to it in the Solution Link field. Optionally, also submit a link to your project's source code in the GitHub Link field.
 HINT: You can use the multer npm package to handle file uploading.
 
+```
+{
+  "name": "Снимок экрана 2023-03-27 в 21.05.52.png",
+  "type": "image/png",
+  "size": 115932
+}
+```
+
 ### Tests
 - [ ] You should provide your own project, not the example URL.
 - [ ] You can submit a form that includes a file upload.
